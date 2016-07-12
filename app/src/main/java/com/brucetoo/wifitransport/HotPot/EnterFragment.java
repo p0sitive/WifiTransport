@@ -53,12 +53,6 @@ public class EnterFragment extends Fragment {
             }
         });
 
-        view.findViewById(R.id.btn_scan_view).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ((HotpotReleaseActivity) getActivity()).replaceFragment(ScanFragment.newInstance());
-            }
-        });
 
         view.findViewById(R.id.btn_web).setOnClickListener(new View.OnClickListener() {
             @Override
